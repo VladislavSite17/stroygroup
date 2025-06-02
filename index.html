@@ -658,18 +658,18 @@
   Или показать актуальные цены
 </p>
 
-<!-- Скрытая форма с вашей картинкой -->
-<div id="imageForm" style="display: none; margin-top: 10px;">
+<!-- Скрытая форма с вашим текстом -->
+<div id="textForm" style="display: none; margin-top: 10px;">
   <form>
-    <!-- Ваша картинка -->
-    <img src="images/price.JPG" style="max-width: 100%; height: 500px;" />
+    <!-- Ваш заданный текст -->
+    <p>Это ваш заданный текст, который будет отображаться при клике.</p>
   </form>
 </div>
 
 <script>
   // Обработчик для текста
   document.getElementById('toggleText').addEventListener('click', function() {
-    const formDiv = document.getElementById('imageForm');
+    const formDiv = document.getElementById('textForm');
     if (formDiv.style.display === 'none') {
       formDiv.style.display = 'block'; // показываем
     } else {
@@ -677,11 +677,12 @@
     }
   });
 </script>
-        </form>
 
-        <!-- Вывод результата -->
-        <div id='result' style='margin-top:20px; font-weight:bold;'></div>
-      </div>
+<!-- Предполагается, что у вас есть элемент с id="toggleText" для клика -->
+<button id="toggleText">Показать/скрыть текст</button>
+
+<!-- Вывод результата -->
+<div id='result' style='margin-top:20px; font-weight:bold;'></div>
 
 
 

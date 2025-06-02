@@ -1,0 +1,129 @@
+div.overlay { 
+}
+div.overlay div.close {background-image:url(images/close.png);position:absolute;
+right:5px;top:5px;cursor:pointer;height:35px;width:35px;}
+#overlay {background-image:url(images/fon.png);background-repeat:no-repeat;}
+#overgoop {background-image:url(images/fon.png);background-repeat:no-repeat;}
+div.wrap {height:441px;overflow-y:auto;}
+.contact-title {color:#fff;margin-top:20px;font-size:1.4em; text-align:left;}
+.contact-input {font-family:'Trebuchet MS', Verdana, Arial;float:left;padding:2px;
+margin:2px;background:#eee;border:1px solid #fff;width:300px;
+}
+.lable {text-align:left;clear:left;display:block; font-size:13px;font-family:"Verdana";color:#fff;}
+.input {text-align:left;background-color:#F0F0F0;border:0px;font-size:14px;
+font-family:Arial, Helvetica, sans-serif;color:#000;}
+.warning_table {background:#F0F0F0;border:5px #eee;border-radius:10px;
+-moz-border-radius:10px;-webkit-border-radius:10px;-webkit-box-shadow:#666 0px 2px 3px;
+-moz-box-shadow:#666 0px 2px 3px;box-shadow:#666 0px 2px 3px;behavior: url(PIE.htc);
+}
+.warning_font_big {font:Arial;font-size:30px;color:#010101;}
+.warning_font {font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;color:#333;padding-top:15px;}
+.table2 {
+background:#87A0AB;
+padding:20px;
+border:outset 5px #5c7a7c;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-webkit-box-shadow:#666 0px 2px 3px;
+-moz-box-shadow:#666 0px 2px 3px;
+box-shadow:#666 0px 2px 3px;
+behavior:url(PIE.htc);
+}
+.table3 {
+margin:0 auto;
+background:#87A0AB;
+padding:20px;
+border:outset 5px #5c7a7c;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-webkit-box-shadow:#666 0px 2px 3px;
+-moz-box-shadow:#666 0px 2px 3px;
+box-shadow:#666 0px 2px 3px;
+behavior:url(PIE.htc);
+}
+.table3 th{margin:0;padding: 6px 0 2px;color:#FFF;text-align:center;font-size:15px;text-shadow: 0 1px #000;font-family: Verdana;}
+#parent_popup {
+background:#D4D4D4;
+display:none;
+height:100%;
+opacity:0.9;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* работает в IE6, IE7 и IE8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)"; /* только для IE8 */
+filter: alpha(opacity=90);
+-moz-opacity:0.9;
+-khtml-opacity:0.9;
+position:fixed;
+width:100%;
+z-index:10000;
+top:0;
+left:0;
+}
+#parent_popup2 {
+background:#D4D4D4;
+display:none;
+height:100%;
+opacity:0.9;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* работает в IE6, IE7 и IE8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)"; /* только для IE8 */
+filter: alpha(opacity=90);
+-moz-opacity:0.9;
+-khtml-opacity:0.9;
+position:fixed;
+width:100%;
+z-index:10000;
+top:0;
+left:0;
+}
+#parent_popup3 {
+background:#D4D4D4;
+display:none;
+height:100%;
+opacity:0.9;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* работает в IE6, IE7 и IE8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)"; /* только для IE8 */
+filter: alpha(opacity=90);
+-moz-opacity:0.9;
+-khtml-opacity:0.9;
+position:fixed;
+width:100%;
+z-index:10000;
+top:0;
+left:0;
+}
+#parent_popup4 {
+background:#D4D4D4;
+display:none;
+height:100%;
+opacity:0.9;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* работает в IE6, IE7 и IE8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)"; /* только для IE8 */
+filter: alpha(opacity=90);
+-moz-opacity:0.9;
+-khtml-opacity:0.9;
+position:fixed;
+width:100%;
+z-index:10000;
+top:0;
+left:0;
+}
+#parent_popup {background:##01010154;;display:none;height:100%;opacity:0.9;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* работает в IE6, IE7 и IE8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)"; /* только для IE8 */
+filter: alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9;
+position:fixed;width:100%;z-index:10000;top:0;left:0;
+}
+#popupup {margin:0 auto;margin-top:10px;background-image:url(images/fon.png);
+background-repeat:no-repeat;width:474px;height:501px;padding:0 0 0 0;color:#f00;z-index:10001;
+}
+#close {background-image:url(images/close.png);margin-left:434px;
+cursor:pointer;height:35px;width:35px;
+}
+a.images {background:url("images/knopka.png");display:block; 
+width:313px;height:85px;border:0; 
+}
+a.images:hover {background:url("images/knopka-hover.png");
+width:313px; height:85px;border:0; 
+}

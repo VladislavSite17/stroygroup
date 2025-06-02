@@ -1,0 +1,6 @@
+// Динамическое дублирование карточек для бесконечного эффекта
+document.addEventListener('DOMContentLoaded', function() {
+    const track = document.querySelector('.carousel-track');
+    const cards = track.innerHTML;
+    track.innerHTML = cards + cards; // Дублируем содержимое
+});
